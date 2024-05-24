@@ -45,6 +45,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    link: "https://github.com/Mario1515/CryptoEasy"
   },
   {
     title: "Task Management App",
@@ -70,7 +71,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Sofia, Bulgaria /  Zurich, Switzerland",
+  phoneNo: "+359 88 240 7945 ",
+  email: "mariopetkovnfsg@gmail.com",
 };
