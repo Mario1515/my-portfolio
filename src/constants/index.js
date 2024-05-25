@@ -17,6 +17,14 @@ export const EXPERIENCES = [
     technologies: ["Javascript", "React.js", "Express.js", "mongoDB", "Bootstrap CSS"],
   },
   {
+    year: "2021 - Present",
+    role: "Software Engineering Student",
+    company: "Software University",
+    description: `
+    As a JavaScript student at Software University, I've engaged in numerous projects, honing my skills in web development. I've demonstrated my dedication and proficiency in JavaScript programming and its application in building innovative web solutions. I excel in functional programming, manipulation of arrays and objects, DOM manipulation, and asynchronous programming, among other key concepts. Specializing in full-stack JavaScript development, I am adept at building modern web applications using HTML, CSS, TypeScript, Node.js, Express.js, MongoDB, React, and Angular.`,
+    technologies: ["Javascript", "React.js", "Node.js", "mongoDB", "TypeScript", "Angular"],
+  },
+  {
     year: "2022 - 2024",
     role: "Private Equity Analyst",
     company: "Apex",
