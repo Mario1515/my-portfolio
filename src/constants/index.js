@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. Since I started coding in 2021, I have honed my skills in front-end technologies like React and back-end technologies like Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -65,6 +66,14 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "React", "Tailwind CSS", "Framer"],
     link: "https://github.com/Mario1515/my-portfolio"
+  },
+  {
+    title: "Friendly World - Fundraising Project",
+    image: project5,
+    description:
+      "An Animal Rescue Web Application built with Node.js, Express, MongoDB, and Handlebars. It allows users to register, login, and manage animal rescue posts with CRUD functionalities plus donating to posts. The application features authentication and authorization using JWT, secure password handling with bcrypt, and dynamic content rendering with Handlebars.",
+    technologies: ["NodeJS", "ExpressJS", "HandleBars", "Mongoose", "bcrypt", "jsonwebtoken"],
+    link: "https://github.com/Mario1515/friendly-word"
   },
 ];
 
