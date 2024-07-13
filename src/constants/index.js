@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
+import project7 from "../assets/projects/project-7.png";
 import project8 from "../assets/projects/project-8.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. Since I started coding in 2021, I have honed my skills in front-end technologies like React and back-end technologies like Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -12,19 +13,18 @@ export const ABOUT_TEXT = "I am a dedicated and versatile full stack developer w
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Full Stack Developer",
-    company: "Personal Projects",
-    description: `
-    Developed Crypto Easy React project, a comprehensive platform for exploring cryptocurrencies and NFTs, using React.js and Node.js. Implemented features for both public and private users, including live crypto data from the CoinGecko API and NFT management capabilities. Ensured a seamless user experience by integrating EmailJS for user communication and utilizing Vite for efficient frontend development.`,
-    technologies: ["Javascript", "React.js", "Express.js", "mongoDB", "Bootstrap CSS"],
+    role: "Software Developer",
+    company: "Full-Stack",
+    description: `Since 2022, I've worked on multiple projects, including Crypto Easy, where I integrated the CoinGecko API for live cryptocurrency data and enabled NFT creation. Additionally, I developed PetStagram, focusing on secure authentication and community interaction features. Moreover, I created GameMarket, a platform facilitating game buying and selling and many more projects which could be checked within my GitHub. `,
+    technologies: ["Node.js", "React.js", "Express.js", "mongoDB", "MySQL"],
   },
   {
-    year: "2021 - Present",
+    year: "2021 - 2023",
     role: "Software Engineering Student",
     company: "Software University",
     description: `
     As a JavaScript student at Software University, I've engaged in numerous projects, honing my skills in web development. I've demonstrated my dedication and proficiency in JavaScript programming and its application in building innovative web solutions. I excel in functional programming, manipulation of arrays and objects, DOM manipulation, and asynchronous programming, among other key concepts. Specializing in full-stack JavaScript development, I am adept at building modern web applications using HTML, CSS, TypeScript, Node.js, Express.js, MongoDB, React, and Angular.`,
-    technologies: ["Javascript", "React.js", "Node.js", "mongoDB", "TypeScript", "Angular"],
+    technologies: ["Javascript", "React.js", "Node.js", "Express.js", "TypeScript", "Angular"],
   },
   {
     year: "2022 - 2024",
@@ -67,6 +67,14 @@ export const PROJECTS = [
       "An Animal Rescue Web Application built with Node.js, Express, MongoDB, and Handlebars. It allows users to register, login, and manage animal rescue posts with CRUD functionalities plus donating to posts. The application features authentication and authorization using JWT, secure password handling with bcrypt, and dynamic content rendering with Handlebars.",
     technologies: ["NodeJS", "ExpressJS", "HandleBars", "Mongoose", "bcrypt", "jsonwebtoken"],
     link: "https://github.com/Mario1515/friendly-word"
+  },
+  {
+    title: "GameMarket - Marketplace for Games",
+    image: project7,
+    description:
+      "GameMarket is a dedicated marketplace for buying, selling, and trading video games. Users can browse a wide selection of games, post their own games for sale, and interact with other gamers. The platform supports full CRUD (Create, Read, Update, Delete) operations, user authentication and authorization using JWT, secure password handling with bcrypt, and dynamic content rendering with Handlebars. The database is on MongoDB with ODM Mongoose.",
+    technologies: ["NodeJS", "ExpressJS", "HandleBars", "Mongoose", "bcrypt", "jsonwebtoken"],
+    link: "https://github.com/Mario1515/gaming-shop"
   },
   {
     title: "Chat App",
