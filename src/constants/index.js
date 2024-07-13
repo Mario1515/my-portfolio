@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
+import project8 from "../assets/projects/project-8.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. Since I started coding in 2021, I have honed my skills in front-end technologies like React and back-end technologies like Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -47,16 +48,32 @@ export const PROJECTS = [
     title: "Crypto Easy",
     image: project1,
     description:
-      "A fully functional Crypto site called - Crypto Easy which utilizes technologies such as React.js for frontend development, Node.js for backend functionality, and MongoDB for database management, ensuring seamless integration and optimal performance for users exploring the dynamic world of cryptocurrencies and NFTs.",
-    technologies: ["HTML", "BootStrap CSS", "React", "Node.js", "MongoDB", "Express.js"],
+      "Crypto Easy is a platform that simplifies the exploration and management of cryptocurrencies ands. Using React.js for the frontend, Node.js and Express.js for the backend, and MongoDB for database management, it ensures seamless integration and performance. Leveraging the CoinGecko API, Crypto Easy provides real-time cryptocurrency data. Users can create their own NFTs, making digital collectibles accessible. Crypto Easy aims to offer a user-friendly, secure, and innovative experience for crypto enthusiasts.",
+    technologies: ["Node.js", "Express.js", "React", "CoinGecko API", "MongoDB", "BootStrap CSS"],
     link: "https://github.com/Mario1515/CryptoEasy",
+  },
+  {
+    title: "PetStagram - Social Media platform for pets",
+    image: project8,
+    description:
+      "Petstagram is a social media platform dedicated to pets, created with Node.js and Express. Users can share pictures of their pets, comment on others' posts, and interact with the pet-loving community. The application supports full CRUD (Create, Read, Update, Delete) operations, authentication and authorization using JWT, secure password handling with bcrypt, and dynamic content rendering with Handlebars. The database is on MongoDB with ODM Mongoose. ",
+    technologies: ["NodeJS", "ExpressJS", "HandleBars", "Mongoose", "bcrypt", "jsonwebtoken"],
+    link: "https://github.com/Mario1515/petstagram"
+  },
+  {
+    title: "Friendly World - Fundraising Project",
+    image: project5,
+    description:
+      "An Animal Rescue Web Application built with Node.js, Express, MongoDB, and Handlebars. It allows users to register, login, and manage animal rescue posts with CRUD functionalities plus donating to posts. The application features authentication and authorization using JWT, secure password handling with bcrypt, and dynamic content rendering with Handlebars.",
+    technologies: ["NodeJS", "ExpressJS", "HandleBars", "Mongoose", "bcrypt", "jsonwebtoken"],
+    link: "https://github.com/Mario1515/friendly-word"
   },
   {
     title: "Chat App",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "TailwindCSS", "MongoDB", "Socket.io", "React.js", "Node.js", "Express.js"],
+    technologies: ["Node.js", "React.js",  "Express.js", "MongoDB", "Socket.io", "HTML", "TailwindCSS"],
     link: "https://github.com/Mario1515/chat-app",
   },
   {
@@ -67,18 +84,10 @@ export const PROJECTS = [
     technologies: ["HTML", "React", "Tailwind CSS", "Framer"],
     link: "https://github.com/Mario1515/my-portfolio"
   },
-  {
-    title: "Friendly World - Fundraising Project",
-    image: project5,
-    description:
-      "An Animal Rescue Web Application built with Node.js, Express, MongoDB, and Handlebars. It allows users to register, login, and manage animal rescue posts with CRUD functionalities plus donating to posts. The application features authentication and authorization using JWT, secure password handling with bcrypt, and dynamic content rendering with Handlebars.",
-    technologies: ["NodeJS", "ExpressJS", "HandleBars", "Mongoose", "bcrypt", "jsonwebtoken"],
-    link: "https://github.com/Mario1515/friendly-word"
-  },
 ];
 
 export const CONTACT = {
-  address: "Sofia, Bulgaria /  Zurich, Switzerland",
+  address: "Sofia, Bulgaria",
   phoneNo: "+359 88 240 7945 ",
   email: "mariopetkovnfsg@gmail.com",
 };
