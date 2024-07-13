@@ -16,7 +16,7 @@ export const EXPERIENCES = [
     year: "2023 - Present",
     role: "Software Developer",
     company: "Full-Stack",
-    description: `Since 2022, I've worked on multiple projects, including Crypto Easy, where I integrated the CoinGecko API for live cryptocurrency data and enabled NFT creation. Additionally, I developed PetStagram, focusing on secure authentication and community interaction features. Moreover, I created GameMarket, a platform facilitating game buying and selling and many more projects which could be checked within my GitHub. `,
+    description: `I've worked on multiple projects, including Crypto Easy, where I integrated the CoinGecko API for live cryptocurrency data and enabled NFT creation. Additionally, I developed PetStagram, focusing on secure authentication and community interaction features. Moreover, I created GameMarket, a platform facilitating game buying and selling and many more projects which could be checked within my GitHub. `,
     technologies: ["Node.js", "React.js", "Express.js", "mongoDB", "MySQL"],
   },
   {
