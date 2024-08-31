@@ -7,16 +7,16 @@ import project7 from "../assets/projects/project-7.png";
 import project8 from "../assets/projects/project-8.jpg";
 
 export const HERO_CONTENT = `
-I am a passionate full stack developer with a focus on crafting scalable web applications. Since I started coding in 2021, I have strengthened my skills in front-end technologies such as React and backend technologies like Node.js, Express, MySQL, and MongoDB. I specialize in building secure applications with robust user authentication mechanisms using technologies like JWT and bcrypt. My goal is to leverage my expertise in these technologies to develop innovative solutions that not only drive business growth but also deliver exceptional user experiences.`;
+My journey with coding started back in 2021 and since then I’ve specialised in building and maintaining diverse web applications. I am proficient in JavaScript, NodeJS, TypeScript, Python. With frontend skills in React, React Native, Angular, and databases like MySQL, SQLite, PostgreSQL and MongoDB. I am also familiar with RESTful APIs, message brokers like Kafka, containerization with Docker and orchestrator Kubernetes.`;
 
-export const ABOUT_TEXT = "I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I hold a Bachelor's degree in Software Engineering from Software University in Sofia, where I graduated with a perfect 6.00 GPA, and a Bachelor's degree in Finance. My journey in web development began during the COVID-19 pandemic, giving me three years of professional experience. Throughout my career, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. I have actively contributed to multiple projects at Software University and have developed several live projects independently. Driven by a deep curiosity for how things work, I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.";
+export const ABOUT_TEXT = "I hold a Bachelor's degree in Software Engineering from Software University in Sofia, where I graduated with a perfect 6.00 GPA, as well as a Bachelor's degree in Finance. Over the course of my career, I've worked with a diverse range of technologies including both frontend and backend. I thrive in collaborative environments where I can contribute to team success while also learning from others. Solving complex problems to deliver high-quality solutions is what drives me, and I continuously seek out opportunities to innovate and enhance my skills.";
 
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
     role: "Software Developer",
     company: "Full-Stack",
-    description: `I've worked on multiple projects, including Crypto Easy, where I integrated the CoinGecko API for live cryptocurrency data and enabled NFT creation. Additionally, I developed PetStagram, focusing on secure authentication and community interaction features. Moreover, I created GameMarket, a platform facilitating game buying and selling and many more projects which could be checked within my GitHub. `,
+    description: `I have worked on multiple projects that highlight my skills. I have self-handedly created a Crypto Platofrm called Crypto Easy, in which I integrated CoinGecko Api for live crypto data and also added NFT creation. I have created a live marketplace for games called GameMarket and also a Crypto Monitor App (React + ethers.js) app which I've integrated with Metamask wallet. One of my recent projects is CineHub (React Native + Laravel) film app for ios and android.`,
     technologies: ["Node.js", "React.js", "Express.js", "mongoDB", "MySQL"],
   },
   {
